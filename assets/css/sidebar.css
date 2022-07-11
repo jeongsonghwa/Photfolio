@@ -52,8 +52,8 @@ ul.actions {
     padding-left: 0;
 }
 
-    ul.actions li {
-        width: 200px;
+.actions{
+    width: 190px; 
     }
 
 .button.resume{
