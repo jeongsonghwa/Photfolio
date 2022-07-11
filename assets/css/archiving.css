@@ -1,0 +1,39 @@
+.archiving.container{
+    display: flex;
+    height: 300px;
+}
+
+.image.archiving{
+    background-color: #F1EAE4; 
+    width: 300px;
+}
+
+.image.archiving.tistory{
+    padding: 95px 0;
+    background-color: #fff;
+}
+
+.a.archiving.github{
+    height: 100%;
+    background-color: #fff;
+}
+
+.a.archiving.tistory{
+    background-color: #fff;
+    height: 300px;
+}
+
+.detail.archiving{
+    background-color: #F1EAE4;
+    padding: 0px;
+    display: flex;
+    width: 100%;
+}
+
+.inner.archiving{
+    margin: 30px 0 0 20px;
+}
+
+.archiving.context{
+    margin: 0 20px;
+}

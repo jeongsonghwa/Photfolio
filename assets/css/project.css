@@ -1,0 +1,88 @@
+.project-container{
+    display: flex;
+    text-align: center;
+    width: 900px;
+}
+
+.team-project{
+    width: 300px;
+    padding: 40px 0 30px 0;
+}
+
+
+.sub-project-context{
+    position: right;
+    font-size: 15px;
+}
+
+.sub-project.img.container{
+    display: flex;
+    padding: 30px 0 0 0;
+}
+
+.sub-project.img.container-starbucks{
+    display: block;
+    width: 300px;
+}
+
+.team-project-container{
+    padding: 0;
+    margin: 70px 0;
+}
+
+/* .team-project.img.container{
+    width: 100px;
+} */
+
+.img-team-project{
+    width: 250px;
+}
+
+.img-sub-project-starbucks{
+    width: 200px;
+    height: 230px;
+    margin: 0px 40px 0 50px;
+}
+
+.team-project-button-container{
+    display: flex;
+    margin: 30px 40px 0 60px;
+}
+
+
+.sub-project-container{
+    padding: 0px;
+    margin: 70px 0;
+} 
+
+.sub-project-button-container{
+    width: 230px;
+    margin: auto;
+    display: block;
+    margin: 0 40px 0 50px;
+}
+
+.button.project{
+    width: 100px;
+    display: inline-block;
+    padding: 0px;
+    margin: 0 10px 0 0;
+ }
+
+ .button.sub-project:first-child{
+    margin: 0 10px 0 10px;
+ }
+
+ .sub-project.img.container-osi7layer{
+    display: block;
+    margin: auto
+ }
+
+.img-sub-project-osi7layer{
+    width: 300px;
+    margin: 80px 0 75px 0;
+}
+
+.button.sub-project.osi7layer{
+   margin: 0 120px 0 120px;
+}

@@ -1,0 +1,61 @@
+
+/* Sidebar */
+
+#sidebar {
+    padding: 0 40px;
+    text-align: right;
+    position: fixed;
+}
+
+.side-menu{
+right: 0;
+position: absolute;
+margin: 15px 185px 0 0;
+}
+
+.side-menu-button{
+    width: 20px; 
+    border-radius: 90%;
+    box-shadow: 2px 2px 2px black;
+    transition-duration: 0.2s;
+    margin-right: 3px;
+}
+
+.clicked{
+     box-shadow: none;
+}
+
+.profil_photo{
+    width: 200px;
+    height: 200px;
+    margin: 80px auto 0px auto;
+    display: block;
+}
+
+.sidebar-context{
+    list-style: none;
+    margin: 20px 0;
+    text-align: center;
+    width: 230px;
+}
+
+.sidebar-context li{
+    margin: 5px 0;
+    color: #48474b;
+    font-size: 15px;
+}
+
+
+ul.actions {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+
+    ul.actions li {
+        width: 200px;
+    }
+
+.button.resume{
+    background-color: #fff9f9;
+}
