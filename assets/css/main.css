@@ -373,8 +373,17 @@ body, input, select, textarea {
 	display: block;
 	margin: 0 auto;
 	width: 700px;
-	padding: 200px;
+	padding: 165px;
+	height: 100%;
 }	
+
+.intro-explain{
+	width: 350px;
+	text-align: left;
+	left: 50px;
+	margin-top: 20px;
+	position: relative;
+}
 	.wrapper.alt {
 		background-color: #CEC1B6;
 	}
@@ -412,9 +421,3 @@ body, input, select, textarea {
 }
 
 
-.intro-explain{
-	width: 350px;
-	text-align: left;
-	position: relative;
-	left: 8px;
-}
