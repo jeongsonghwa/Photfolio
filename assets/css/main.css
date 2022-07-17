@@ -411,4 +411,10 @@ body, input, select, textarea {
 	font-size: 12px;
 }
 
-	
+
+.intro-explain{
+	width: 350px;
+	text-align: left;
+	position: relative;
+	left: 8px;
+}

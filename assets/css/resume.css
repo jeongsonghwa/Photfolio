@@ -75,6 +75,17 @@
     margin-bottom: 80px;
     padding-bottom: 20px;
     border-bottom: 3px solid rgb(133 104 88);
+    display: flex;
+}
+
+.resume-download{
+    margin-left: auto;
+    color: gray;
+    text-decoration: none;
+    position: relative;
+    height: 0px;
+    top: 70px;
+    font-size: 13px;
 }
 
 .image.resume {
