@@ -9,7 +9,7 @@
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    background-color: #CEC1B6;
+    background-color: #A2D982;
     cursor: default;
     padding: 1.75em 2em;
 }
@@ -74,7 +74,7 @@
 .major{
     margin-bottom: 80px;
     padding-bottom: 20px;
-    border-bottom: 3px solid rgb(133 104 88);
+    border-bottom: 3px solid #a8c499;
     display: flex;
 }
 

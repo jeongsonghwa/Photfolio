@@ -27,7 +27,7 @@ html{
 }
 
 body{
-	overflow-y: hidden;
+	overflow-y: hidden; 
 }
 
 #cover{
@@ -35,12 +35,19 @@ body{
 	border: 1px solid #738186;
 	height: 580px;
 	width: 1300px;
-	background-color: #CEC1B6;
+	background-color: #A2D982;
 	box-shadow: 5px 5px 5px;
 	overflow: hidden;
 	scroll-behavior:smooth;
 	width: 200px auto;
 	margin: 70px auto;
+	-ms-overflow-style: none; 
+	scrollbar-width: none; 
+	overflow-y: scroll; 
+}
+
+#cover::-webkit-scrollbar {
+    display: none; 
 }
 
 
@@ -223,7 +230,7 @@ body, input, select, textarea {
 		background-color: transparent;
 		border: solid 1px !important;
 		border-radius: 3em;
-		color: #C7A794!important;
+		color: #63A937!important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -246,7 +253,7 @@ body, input, select, textarea {
 	.features {
 		margin: 0 auto;
 		width: 800px;
-		padding: 20px 0;
+		padding-top:15px;
 	}
 
 		.features section {
@@ -254,9 +261,10 @@ body, input, select, textarea {
 			display: inline-block;
 			position: relative;
 			background-color: #fff9f9;
-			margin: 20px;
+			margin: 10px;
 			width: 350px;
 			border-radius: 50px;
+			height: 160px;
 		}
 
 
@@ -354,7 +362,7 @@ body, input, select, textarea {
 	#sidebar + #wrapper {
 		left: 18em;
 		position: relative;
-		overflow: hidden;
+		/* overflow: hidden; */
 	}
 
 	#wrapper{
@@ -385,7 +393,7 @@ body, input, select, textarea {
 	position: relative;
 }
 	.wrapper.alt {
-		background-color: #CEC1B6;
+		background-color: #A2D982;
 	}
 
 	.wrapper.style1 {
@@ -394,7 +402,7 @@ body, input, select, textarea {
 	}
 
 	.wrapper.style3 {
-		background-color: #F1EAE4;
+		background-color: #DBE8D9;
 		height: 600px;
 	}
 
@@ -420,4 +428,10 @@ body, input, select, textarea {
 	font-size: 12px;
 }
 
+.features.context{
+	margin: 17px 0;
+    padding: 10px 26px;
+    background: #fff;
+    border-radius: 20px;
+}
 
