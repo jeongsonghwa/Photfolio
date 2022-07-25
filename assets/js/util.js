@@ -583,10 +583,15 @@
 			});
 
 	};
-
+			
+			
 		//button
 		var sideMenuButton = document.getElementsByClassName("side-menu-button");
-		var sideMenuButtona = document.getElementsByClassName("side-menu-button-a"); 
+
+		// var setInterval = (function() {
+		// 	$(".side-menu-button").toggle();
+		//  },1500);
+		//  sideMenuButton.addEventListener('click', setInterval);
 
 		function handleClick(event) {
 
@@ -608,8 +613,5 @@
 		}
 	
 		init();
-
-
-	
 
 })(jQuery);

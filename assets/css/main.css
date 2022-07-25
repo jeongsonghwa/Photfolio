@@ -41,21 +41,15 @@ body{
 	scroll-behavior:smooth;
 	width: 200px auto;
 	margin: 70px auto;
-	-ms-overflow-style: none; 
-	scrollbar-width: none; 
+    -ms-overflow-style: none; 
+	scrollbar-width: none;
 	overflow-y: scroll; 
 }
 
 #cover::-webkit-scrollbar {
-    display: none; 
-}
+	 display: none;  
 
-
-
-.table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+} 
 
 mark {
 	background-color: transparent;
@@ -391,6 +385,14 @@ body, input, select, textarea {
 	left: 50px;
 	margin-top: 20px;
 	position: relative;
+}
+
+.scroll-img{
+	width: 70px;
+	height: 100px;
+	position: relative;
+	left: 460px;
+	top: 80px;
 }
 	.wrapper.alt {
 		background-color: #A2D982;
