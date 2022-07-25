@@ -586,6 +586,7 @@
 
 		//button
 		var sideMenuButton = document.getElementsByClassName("side-menu-button");
+		var sideMenuButtona = document.getElementsByClassName("side-menu-button-a"); 
 
 		function handleClick(event) {
 
@@ -607,6 +608,8 @@
 		}
 	
 		init();
+
+
 	
 
 })(jQuery);
